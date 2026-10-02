@@ -60,7 +60,7 @@ export const SPECIALTIES: Specialty[] = [
     title: 'Kinesiología Traumatológica & Fisiatría',
     subtitle: 'Equipamiento terapéutico completo para desinflamación y movilidad',
     description: 'Atención kinesiológica integral para postoperatorios, fracturas, tendinitis y procesos inflamatorios agudos o crónicos con agentes de fisioterapia y seguimiento continuo.',
-    image: '/images/medical-clinic-consult.jpg',
+    image: '/images/cg-fisiatria.jpg',
     tags: ['Postoperatorios', 'Tendinopatías', 'Movilidad Articular', 'Atención 1 a 1']
   },
   {
