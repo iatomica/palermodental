@@ -4,7 +4,7 @@ import { InstagramIcon } from './InstagramIcon';
 
 export const LocationSection = () => {
   return (
-    <section id="ubicacion" className="py-20 sm:py-28 bg-[#FAFAFA] border-b border-black/8">
+    <section id="ubicacion" className="py-20 sm:py-28 bg-[#FAF8F5] border-b border-[#162C46]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -12,62 +12,62 @@ export const LocationSection = () => {
           {/* Left Column: Info (6 cols) */}
           <div className="lg:col-span-6 space-y-6">
             
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-neutral-300 text-xs font-bold uppercase tracking-wider text-black shadow-2xs">
-              <MapPin className="w-3.5 h-3.5 text-black" />
-              <span>Consultorio en Chacarita</span>
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-[#162C46]/15 text-xs font-bold uppercase tracking-wider text-[#162C46] shadow-2xs">
+              <MapPin className="w-3.5 h-3.5 text-[#162C46]" />
+              <span>Consultorio en Balvanera / San Cristóbal</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-black leading-tight">
-              Un espacio boutique diseñado para tu bienestar
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-medium text-[#162C46] leading-tight">
+              Un espacio terapéutico enfocado en tu bienestar
             </h2>
 
             <p className="text-sm sm:text-base text-neutral-600 font-light leading-relaxed">
-              El consultorio del <strong>Dr. Jhon Barrios</strong> se ubica en <strong>{CLINIC_INFO.address}</strong>, en una zona estratégica de Chacarita con acceso ágil desde Colegiales, Palermo, Belgrano y Villa Urquiza.
+              El consultorio de la <strong>Lic. Carolina Gala</strong> se ubica en <strong>{CLINIC_INFO.address}</strong>, con accesibilidad directa desde distintos puntos de la Ciudad Autónoma de Buenos Aires.
             </p>
 
             <div className="space-y-4 pt-2">
               
               {/* Address */}
-              <div className="p-5 rounded-2xl bg-white border border-black/8 shadow-2xs flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center shrink-0">
-                  <MapPin className="w-5 h-5 text-[#C5A880]" />
+              <div className="p-5 rounded-2xl bg-white border border-[#162C46]/10 shadow-2xs flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-[#162C46] text-white flex items-center justify-center shrink-0">
+                  <MapPin className="w-5 h-5 text-[#6BA4E8]" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-black">Dirección de Atención</h4>
-                  <p className="text-xs text-neutral-800 font-medium mt-0.5">{CLINIC_INFO.address} — Chacarita, CABA</p>
-                  <p className="text-[11px] text-neutral-500 mt-1">A cuadras de Av. Álvarez Thomas, Av. Corrientes y Av. Federico Lacroze.</p>
+                  <h4 className="text-sm font-bold text-[#162C46]">Dirección de Atención</h4>
+                  <p className="text-xs text-neutral-800 font-medium mt-0.5">{CLINIC_INFO.address} — CABA</p>
+                  <p className="text-[11px] text-neutral-500 mt-1">Cercano a Av. Independencia, Av. Entre Ríos y Av. Belgrano.</p>
                 </div>
               </div>
 
               {/* Hours */}
-              <div className="p-5 rounded-2xl bg-white border border-black/8 shadow-2xs flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center shrink-0">
-                  <Clock className="w-5 h-5 text-[#C5A880]" />
+              <div className="p-5 rounded-2xl bg-white border border-[#162C46]/10 shadow-2xs flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-[#162C46] text-white flex items-center justify-center shrink-0">
+                  <Clock className="w-5 h-5 text-[#6BA4E8]" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-black">Días y Horarios</h4>
+                  <h4 className="text-sm font-bold text-[#162C46]">Días y Horarios</h4>
                   <p className="text-xs text-neutral-800 font-medium mt-0.5">{CLINIC_INFO.hours}</p>
-                  <p className="text-[11px] text-neutral-500 mt-1">Atención exclusiva con cita previa para garantizar máxima puntualidad.</p>
+                  <p className="text-[11px] text-neutral-500 mt-1">Atención individualizada con turno previo para evitar demoras.</p>
                 </div>
               </div>
 
               {/* Contact */}
-              <div className="p-5 rounded-2xl bg-white border border-black/8 shadow-2xs flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-black text-white flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5 text-[#C5A880]" />
+              <div className="p-5 rounded-2xl bg-white border border-[#162C46]/10 shadow-2xs flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-[#162C46] text-white flex items-center justify-center shrink-0">
+                  <Phone className="w-5 h-5 text-[#6BA4E8]" />
                 </div>
                 <div className="w-full">
-                  <h4 className="text-sm font-bold text-black">Contacto &amp; Redes</h4>
+                  <h4 className="text-sm font-bold text-[#162C46]">Contacto Directo</h4>
                   <div className="flex flex-wrap items-center gap-4 mt-1 text-xs">
                     <span className="font-bold text-neutral-900">WhatsApp: {CLINIC_INFO.phoneDisplay}</span>
                     <a
                       href={CLINIC_INFO.instagramUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-neutral-800 hover:text-black font-semibold"
+                      className="inline-flex items-center gap-1.5 text-neutral-800 hover:text-[#162C46] font-semibold"
                     >
                       <InstagramIcon className="w-3.5 h-3.5 text-[#E1306C]" />
-                      <span>{CLINIC_INFO.instagramHandle} ({CLINIC_INFO.instagramFollowers})</span>
+                      <span>{CLINIC_INFO.instagramHandle}</span>
                     </a>
                   </div>
                 </div>
@@ -81,9 +81,9 @@ export const LocationSection = () => {
                 href={getWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-tactile inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#0A0A0A] hover:bg-[#1A1A1A] text-white text-xs font-bold uppercase tracking-wider shadow-sm"
+                className="btn-tactile inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#162C46] hover:bg-[#1E3A5F] text-white text-xs font-bold uppercase tracking-wider shadow-sm transition-colors"
               >
-                <MessageCircle className="w-4 h-4 text-[#C5A880]" />
+                <MessageCircle className="w-4 h-4 text-[#6BA4E8]" />
                 <span>Pedir Turno por WhatsApp</span>
               </a>
 
@@ -91,9 +91,9 @@ export const LocationSection = () => {
                 href={CLINIC_INFO.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-tactile inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white hover:bg-neutral-50 text-black border border-neutral-300 text-xs font-bold uppercase tracking-wider"
+                className="btn-tactile inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white hover:bg-neutral-50 text-[#162C46] border border-neutral-300 text-xs font-bold uppercase tracking-wider transition-colors"
               >
-                <Navigation className="w-4 h-4 text-black" />
+                <Navigation className="w-4 h-4 text-[#162C46]" />
                 <span>Ver en Google Maps</span>
               </a>
             </div>
@@ -102,11 +102,11 @@ export const LocationSection = () => {
 
           {/* Right Column: Google Maps Iframe (6 cols) */}
           <div className="lg:col-span-6">
-            <div className="rounded-[32px] overflow-hidden border border-black/10 shadow-xl bg-white relative">
+            <div className="rounded-[32px] overflow-hidden border border-[#162C46]/15 shadow-xl bg-white relative">
               <div className="h-[400px] sm:h-[460px] w-full bg-neutral-100">
                 <iframe
-                  title="Ubicación Dr. Jhon Barrios Odontología en Chacarita"
-                  src="https://maps.google.com/maps?q=Jorge%20Newbery%203466,%20CABA,%20Argentina&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  title="Ubicación Lic. Carolina Gala Kinesiología en Sarandí 724"
+                  src="https://maps.google.com/maps?q=Sarandi%20724,%20CABA,%20Argentina&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -116,14 +116,14 @@ export const LocationSection = () => {
               </div>
 
               {/* Bottom Badge */}
-              <div className="p-4 bg-white/95 backdrop-blur-md border-t border-black/8 flex items-center justify-between">
+              <div className="p-4 bg-white/95 backdrop-blur-md border-t border-[#162C46]/10 flex items-center justify-between">
                 <div>
-                  <div className="text-xs font-bold text-black">DR. JHON BARRIOS ODONTOLOGÍA</div>
-                  <div className="text-[11px] text-neutral-500">{CLINIC_INFO.address} — Chacarita</div>
+                  <div className="text-xs font-bold text-[#162C46]">KINESIOLOGÍA LIC. CAROLINA GALA</div>
+                  <div className="text-[11px] text-neutral-500">{CLINIC_INFO.address} — CABA</div>
                 </div>
                 <div className="flex items-center gap-1 text-amber-500 font-bold text-xs">
                   <Star className="w-3.5 h-3.5 fill-amber-500" />
-                  <span>4,9 (391 reseñas)</span>
+                  <span>5,0 (42 reseñas)</span>
                 </div>
               </div>
             </div>

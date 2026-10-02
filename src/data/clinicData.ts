@@ -17,125 +17,118 @@ export interface Review {
 }
 
 export const CLINIC_INFO = {
-  name: 'Palermo Dental Studio',
-  shortName: 'Dr. Jhon Barrios',
-  director: 'Dra. Martina Benítez',
-  directorTitle: 'Especialista en Estética Dental, Implantes & Rehabilitación Oral',
-  phoneDisplay: '11 5765-7273',
-  phoneRaw: '1157657273',
-  whatsappRaw: '5491157657273',
-  whatsappUrl: 'https://wa.me/5491157657273?text=Hola%20Dr.%20Jhon%20Barrios,%20quisiera%20solicitar%20un%20turno%20de%20consulta%20en%20el%20consultorio%20de%20Chacarita.',
-  instagramUrl: 'https://www.instagram.com/drjhonbarrios/',
-  instagramHandle: '@drjhonbarrios',
-  instagramFollowers: '+22.000',
-  address: 'Humboldt 1985, Palermo Hollywood, CABA',
-  neighborhood: 'Chacarita, Ciudad Autónoma de Buenos Aires',
-  rating: '4.9',
-  reviewCount: '391',
-  yearsExperience: '12+',
-  hours: 'Lunes a Viernes de 09:00 a 20:00 hs • Sábados con turno previo',
-  mapsUrl: 'https://maps.google.com/?q=Jorge+Newbery+3466,+CABA,+Argentina'
+  name: 'Lic. Carolina Gala',
+  shortName: 'Kine Caro Gala',
+  brandTitle: 'Kinesiología y Fisiatría',
+  director: 'Lic. Carolina Gala',
+  directorTitle: 'Licenciada en Kinesiología y Fisiatría • M.N. / Especialista en Rehabilitación Funcional',
+  phoneDisplay: '11 2294-8241',
+  phoneRaw: '1122948241',
+  whatsappRaw: '5491122948241',
+  whatsappUrl: 'https://wa.me/5491122948241?text=Hola%20Lic.%20Carolina%20Gala,%20quisiera%20solicitar%20un%20turno%20de%20consulta%20kinesiol%C3%B3gica%20en%20el%20consultorio%20de%20Sarand%C3%AD%20724.',
+  instagramUrl: 'https://www.instagram.com/kine.carogala/',
+  instagramHandle: '@kine.carogala',
+  instagramFollowers: '+3.500',
+  address: 'Sarandí 724, CABA',
+  neighborhood: 'Balvanera / San Cristóbal, Ciudad Autónoma de Buenos Aires',
+  rating: '5.0',
+  reviewCount: '42',
+  yearsExperience: '8+',
+  hours: 'Lunes a Viernes de 08:30 a 20:00 hs • Turnos coordinados previamente',
+  mapsUrl: 'https://www.google.com/search?kgmid=/g/11x61f9_cc&hl=es-419&q=Kinesiolog%C3%ADa+Lic.+Carolina+Gala&shndl=30&shem=lcuae&source=sh/x/loc/osrp/m5/5&kgs=686f2edf4b985833'
 };
 
 export const SPECIALTIES: Specialty[] = [
   {
-    id: 'diseno-de-sonrisa',
-    title: 'Diseño de Sonrisa & Carillas',
-    subtitle: 'Planificación digital milimétrica y máxima naturalidad',
-    description: 'Transformación estética de la sonrisa con carillas cerámicas de disilicato de litio y resinas estratificadas. Armonía facial, color luminoso y texturas anatómicas idénticas al esmalte natural.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Carillas Cerámicas', 'Lentes de Contacto Dental', 'DSD Digital', 'Mínima Invasión']
+    id: 'rehabilitacion-deportiva',
+    title: 'Rehabilitación Deportiva & Readaptación',
+    subtitle: 'Recuperación de lesiones articulares y vuelta segura al entrenamiento',
+    description: 'Protocolos personalizados para esguinces, desgarros, lesiones de rodilla, ligamentos y meniscos. Combinamos terapia manual con ejercicios funcionales progresivos en espaldar sueco para que vuelvas a rendir al 100%.',
+    image: '/images/cg-rehab-rodilla.jpg',
+    tags: ['Lesiones de Rodilla', 'Readaptación al Entrenamiento', 'Ejercicios Funcionales', 'Espaldar Sueco']
   },
   {
-    id: 'implantes-cirugia',
-    title: 'Implantología & Cirugía Guiada',
-    subtitle: 'Reposición fija definitiva con máxima predictibilidad',
-    description: 'Recuperación de piezas ausentes mediante implantes de titanio biocompatible de primeras marcas mundiales. Cirugía guiada por tomografía computarizada 3D para una recuperación rápida y sin dolor.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Carga Inmediata', 'Cirugía 3D Guiada', 'Titanio Biocompatible', 'Sin Dolor']
+    id: 'kinesiologia-columna',
+    title: 'Reeducación Postural & Dolor de Columna',
+    subtitle: 'Alivio de contracturas, lumbalgias y sobrecarga en hombros y espalda',
+    description: 'Tratamiento específico para eliminar contracturas crónicas, cervicalgias y sensación de pesadez postural provocada por largas jornadas laborales o estrés muscular.',
+    image: '/images/cg-hero.jpg',
+    tags: ['Alivio de Lumbalgias', 'Cervicalgias & Hombros', 'Cadena Muscular Posterior', 'Postura & Movilidad']
   },
   {
-    id: 'rehabilitacion-oral',
-    title: 'Rehabilitación Oral de Alta Complejidad',
-    subtitle: 'Restitución biológica, funcional y estética masticatoria',
-    description: 'Tratamiento integral de desgastes severos, bruxismo y pérdida de dimensión vertical. Coronas de circonio puro, incrustaciones estéticas inlay/onlay y prótesis fija de alta durabilidad.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Coronas de Circonio', 'Incrustaciones Cerámicas', 'Bruxismo', 'Oclusión Funcional']
+    id: 'fisiatria-traumatologia',
+    title: 'Kinesiología Traumatológica & Fisiatría',
+    subtitle: 'Equipamiento terapéutico completo para desinflamación y movilidad',
+    description: 'Atención kinesiológica integral para postoperatorios, fracturas, tendinitis y procesos inflamatorios agudos o crónicos con agentes de fisioterapia y seguimiento continuo.',
+    image: '/images/medical-clinic-consult.jpg',
+    tags: ['Postoperatorios', 'Tendinopatías', 'Movilidad Articular', 'Atención 1 a 1']
   },
   {
-    id: 'ortodoncia-invisible',
-    title: 'Ortodoncia Invisible & Alineadores',
-    subtitle: 'Alineación dental de alta precisión sin brackets visibles',
-    description: 'Placas alineadoras transparentes y removibles diseñadas digitalmente. Corrigen apiñamientos, separaciones y mordidas de forma discreta, cómoda e higiénica para tu estilo de vida.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Alineadores Transparentes', 'Escaneo Intraoral 3D', 'Removibles', 'Estética Total']
+    id: 'terapia-manual',
+    title: 'Terapia Manual & Descarga Miofascial',
+    subtitle: 'Técnicas manuales precisas para desbloqueo articular y tejido blando',
+    description: 'Maniobras especializadas de movilización vertebral y articular, punción seca si se requiere, masoterapia terapéutica y liberación de puntos gatillo miofasciales.',
+    image: '/images/cg-rehab-rodilla.jpg',
+    tags: ['Liberación Miofascial', 'Puntos Gatillo', 'Movilización Articular', 'Bienestar Inmediato']
   },
   {
-    id: 'blanqueamiento-premium',
-    title: 'Blanqueamiento Dental Clínico',
-    subtitle: 'Luminosidad y aclaramiento sin sensibilidad dental',
-    description: 'Protocolos combinados en consultorio y ambulatorio con geles de última generación activados de forma segura. Aclarado profundo y uniforme cuidando la integridad del esmalte dental.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Aclaramiento en Consultorio', 'Cero Sensibilidad', 'Brillo Natural', 'Seguridad del Esmalte']
-  },
-  {
-    id: 'salud-periodontal',
-    title: 'Prevención, Profilaxis & Armonización',
-    subtitle: 'Cuidado continuo de la salud gingival y estética perioral',
-    description: 'Limpieza ultrasónica profunda con aeropulidor, control periodontal y armonización de márgenes gingivales para enmarcar una sonrisa saludable, fresca y duradera.',
-    image: '/images/dr_jhon_barrios.jpg',
-    tags: ['Ultrasonido Piezoeléctrico', 'Gingivoplastía', 'Profilaxis de Precisión', 'Cuidado Preventivo']
+    id: 'evaluacion-biomecanica',
+    title: 'Evaluación y Diagnóstico Funcional',
+    subtitle: 'Análisis detallado de tu movimiento para encontrar la causa del dolor',
+    description: 'Cada paciente cuenta con una primera sesión de evaluación minuciosa para diagramar un plan de rehabilitación individualizado y transparente, sin sesiones de más.',
+    image: '/images/cg-hero.jpg',
+    tags: ['Evaluación 1 a 1', 'Test Biomecánico', 'Plan a Medida', 'Prevención de Recaídas']
   }
 ];
 
 export const REVIEWS: Review[] = [
   {
     id: '1',
-    name: 'Martín V.',
+    name: 'Rossi Agustina',
     date: 'Hace 1 semana',
     stars: 5.0,
-    text: 'El Dr. Jhon Barrios es un artista. Me hizo carillas en el sector anterior y el cambio en mi rostro y seguridad es impresionante. El consultorio en Chacarita es de película: todo de mármol blanco, prolijo y con la mejor tecnología.',
-    treatment: 'Diseño de Sonrisa & Carillas'
+    text: 'Me atendí con ella por una lesión en la rodilla y la atención fue excelente! Súper amable y atenta! Me recuperé súper rápido y ya estoy entrenando nuevamente! 🙌',
+    treatment: 'Rehabilitación de Rodilla & Deporte'
   },
   {
     id: '2',
-    name: 'Camila S.',
-    date: 'Hace 3 semanas',
-    stars: 5,
-    text: 'Tenía pánico al dentista y la experiencia con Jhon fue fabulosa. Me colocó dos implantes y no sentí absolutamente nada de dolor ni durante ni después de la cirugía. Súper detallista, profesional y puntual.',
-    treatment: 'Implantes Dentales Guiados'
+    name: 'Seba',
+    date: 'Hace 1 mes',
+    stars: 5.0,
+    text: 'Excelente atención! El centro está muy bien equipado y tienen todo para recuperar al 100%. Caro una genia!!',
+    treatment: 'Kinesiología & Fisiatría'
   },
   {
     id: '3',
-    name: 'Facundo G.',
-    date: 'Hace 1 mes',
-    stars: 5,
-    text: 'Excelente atención de todo el staff. Los 4.9 puntos en Google son más que merecidos. Te explican todo con escáner en pantalla antes de tocarte un diente. Recomiendo a ojos cerrados el consultorio de Jorge Newbery.',
-    treatment: 'Rehabilitación Oral & Circonio'
+    name: 'Paciente WhatsApp',
+    date: 'Hace 2 semanas',
+    stars: 5.0,
+    text: 'Hola Gala! No sabés lo bien que me siento, ya casi no tengo esas puntadas que tenía y la verdad que durante el día en la espalda casi nada... ya no tengo esa pesadez en los hombros. Genia total!',
+    treatment: 'Dolor de Espalda & Postura'
   },
   {
     id: '4',
-    name: 'Solange B.',
-    date: 'Hace 2 meses',
-    stars: 5,
-    text: 'Hice el tratamiento de alineadores invisibles con el Dr. Barrios y quedé fascinada. Súper rápido, cómodo y el seguimiento en cada control fue impecable. Además el lugar transmite una paz y elegancia única.',
-    treatment: 'Ortodoncia Invisible'
+    name: 'Facundo M.',
+    date: 'Hace 3 semanas',
+    stars: 5.0,
+    text: 'Buen día Caro! Estoy joya 🥳 No siento nada de dolor 🤩 La calidez humana de Caro y la dedicación en cada ejercicio marcan una diferencia enorme.',
+    treatment: 'Terapia Manual & Rehabilitación'
   }
 ];
 
 export const TRUST_POINTS = [
-  { value: '4.9 ★', label: 'Google Maps (391 reseñas)' },
-  { value: '+22k', label: 'Seguidores en Instagram' },
-  { value: '12+', label: 'Años de Experiencia Clínica' },
-  { value: '100%', label: 'Tecnología & Diagnóstico Digital' }
+  { value: '5.0 ★', label: 'Google Maps (42 opiniones)' },
+  { value: '1 a 1', label: 'Atención Kinesiológica Personalizada' },
+  { value: '100%', label: 'Consultorio Totalmente Equipado' },
+  { value: 'Sarandí 724', label: 'CABA • Balvanera / San Cristóbal' }
 ];
 
 export function getWhatsAppUrl(reason?: string): string {
-  let text = 'Hola Dr. Jhon Barrios! ';
+  let text = 'Hola Lic. Carolina Gala! ';
   if (reason) {
-    text += `Quisiera consultar información y coordinar una cita para *${reason}*.`;
+    text += `Quisiera coordinar un turno para consulta de *${reason}*.`;
   } else {
-    text += 'Quisiera solicitar un turno de consulta en el consultorio de Jorge Newbery 3466, Chacarita.';
+    text += 'Quisiera solicitar un turno en el consultorio de Sarandí 724, CABA.';
   }
   return `https://wa.me/${CLINIC_INFO.whatsappRaw}?text=${encodeURIComponent(text)}`;
 }

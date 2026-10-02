@@ -11,17 +11,17 @@ const InstagramIcon = ({ className = "w-3.5 h-3.5" }: { className?: string }) =>
 
 export const AnnouncementBar = () => {
   return (
-    <div className="bg-[#0A0A0A] text-white text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
+    <div className="bg-[#0D1C2E] text-white text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         
         {/* Left: Location & Hours */}
         <div className="flex items-center gap-6 text-neutral-300">
           <div className="flex items-center gap-1.5">
-            <MapPin className="w-3.5 h-3.5 text-[#C5A880]" />
+            <MapPin className="w-3.5 h-3.5 text-[#6BA4E8]" />
             <span>{CLINIC_INFO.address} — {CLINIC_INFO.neighborhood}</span>
           </div>
           <div className="hidden lg:flex items-center gap-1.5 text-neutral-400">
-            <Clock className="w-3.5 h-3.5 text-[#C5A880]" />
+            <Clock className="w-3.5 h-3.5 text-[#6BA4E8]" />
             <span>{CLINIC_INFO.hours}</span>
           </div>
         </div>
@@ -49,7 +49,7 @@ export const AnnouncementBar = () => {
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 font-bold hover:text-white text-neutral-200 transition-colors"
           >
-            <Phone className="w-3.5 h-3.5 text-[#C5A880]" />
+            <Phone className="w-3.5 h-3.5 text-[#6BA4E8]" />
             <span>{CLINIC_INFO.phoneDisplay}</span>
           </a>
         </div>
